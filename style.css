@@ -38,7 +38,8 @@ main .video-background {
     position: absolute;
     top: 0;
     font-size: 50px;
-    text-shadow: #000 10px 10px 10px
+    text-shadow: #000 10px 10px 10px;
+    text-align: center;
 }
 
 
