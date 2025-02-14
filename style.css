@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    
+}
+main .video-background {
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    position: fixed;
+    object-fit: cover;
+    opacity: .85;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .conversor {
+    background-color: #3534349d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    width: 350px;
+    height: 650px;
+    z-index: 1;
+    border-radius: 10px;
+    padding: 0px 30px;
+}
+.container  h1 {
+    color: #cfcc12;
+    position: absolute;
+    top: 0;
+    font-size: 50px;
+    text-shadow: #000 10px 10px 10px
+}
+
+
+
+.container .box-select {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.container .box-select label {
+    width: 100%;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+}
+.container .box-select select,input {
+    width: 100%;
+    font-size: 18px;
+    margin: 5px 0;
+}
+.container .box-select label {
+    font-size: 18px;
+    width: 250px;
+}
+.container .box-select .convert-button{
+    font-size: 18px;
+    margin-top: 20px;
+    width: 60%;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px #000;
+}
+
+
+
+.container .box-conversor {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    border: 1px solid rgb(55, 55, 55);
+    border-radius: 10px;
+    padding-bottom: 10px;
+    background-color: #ffffff94;
+    box-shadow: 5px 5px 7px #000;
+}
+.container img {
+    width: 20%;
+    padding: 5px 0;
+    border-radius: 50px;
+}
+
+.conversor .video-conversor {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+    border-radius: 10px;
+    opacity: .4;
+}
+.conversor p {
+    color: #000;
+    font-weight: 500;
+    font-size: 17px;
+}
+.conversor .name-currency {
+    color: rgb(117, 116, 116);
+    font-weight: 400;
+    font-size: 14px;
+}
