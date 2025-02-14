@@ -5,13 +5,23 @@
     font-family: "Roboto", serif;
     
 }
-main .video-background {
+.video-background {
+    
     width: 100vw;
     height: 100vh;
-    z-index: -1;
+    z-index: 1;
     position: fixed;
     object-fit: cover;
     opacity: .85;
+}
+.container .conversor .video-conversor {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    border-radius: 10px;
+    opacity: .4;
+    position: absolute;
 }
 .container {
     width: 100vw;
@@ -40,6 +50,7 @@ main .video-background {
     font-size: 50px;
     text-shadow: #000 10px 10px 10px;
     text-align: center;
+    z-index: 2;
 }
 
 
@@ -95,15 +106,7 @@ main .video-background {
     border-radius: 50px;
 }
 
-.conversor .video-conversor {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-    position: absolute;
-    border-radius: 10px;
-    opacity: .4;
-}
+
 .conversor p {
     color: #000;
     font-weight: 500;
