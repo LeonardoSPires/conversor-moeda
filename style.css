@@ -6,7 +6,7 @@
     
 }
 .video-background {
-    
+    transition: 1s ease-in-out;
     width: 100vw;
     height: 100vh;
     z-index: 1;
@@ -86,6 +86,9 @@
     cursor: pointer;
     box-shadow: 3px 3px 5px #000;
 }
+.container .box-select .convert-button:hover{
+    background-color: #e7e7e7;
+}
 
 
 
@@ -116,4 +119,5 @@
     color: rgb(117, 116, 116);
     font-weight: 400;
     font-size: 14px;
+    
 }

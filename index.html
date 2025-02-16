@@ -11,7 +11,7 @@
 </head>
 <body>
     <main>
-        <video class="video-background" src="./video/video-background.mp4" autoplay muted loop ></video>
+        <video class="video-background" src="./video/videoDolar.mp4" autoplay muted loop transition="2s ease-in-out" ></video>
 
         <div class="container"> 
             <h1>Conversor de moeda</h1>
@@ -22,8 +22,11 @@
                 <div class="box-select">
                     <label>Converter <b>de:</b>
                     </br>
-                        <select>
-                            <option>R$ Real brasileiro</option>
+                        <select class="currency-select-to-convert">
+                            <option value="real">R$ Real brasileiro</option>
+                            <option value="dolar">US$ Dolar americano</option>
+                            <option value="euro">€ Euro</option>
+                            <option value="libra">£ LIbra esterlina</option>
                         </select>
                     </label>
         
@@ -31,8 +34,9 @@
                     </br>
                         <select class="currency-select">
                             <option value="dolar">US$ Dolar americano</option>
-                        </br>
+                            <option value="real">R$ Real brasileiro</option>
                             <option value="euro">€ Euro</option>
+                            <option value="libra">£ LIbra esterlina</option>
                         </select>
                     </label>
                     <label>
@@ -45,13 +49,13 @@
                 </div>
 
             <section class="box-conversor">
-                    <img src="./img/real.jpg" alt="logo-moeda" >
-                    <p class="name-currency">Real</p>
-                    <p class="currency-value-convert">R$0.00</p>
+                    <img class="convert-img" src="./img/real.jpg" alt="logo-moeda" >
+                    <p class="name-currency" id="convert-currency">Real</p>
+                    <p class="currency-value-convert">R$ 0,00</p>
                     <img src="./img/seta.png" alt="seta">
-                    <img class="currency-img" src="./img/dolar.jpg" alt="logo-moeda-convertida">
+                    <img class="converted-img" src="./img/dolar.jpg" alt="logo-moeda-convertida">
                     <p class="name-currency" id="change-currency">Dolar Americano</p>
-                    <p class="currency-value-converted">US$0.00"</p>
+                    <p class="currency-value-converted">$0.00</p>
             </section>
             </div>
         </div>
