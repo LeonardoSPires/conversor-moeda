@@ -52,9 +52,6 @@
     text-align: center;
     z-index: 2;
 }
-
-
-
 .container .box-select {
     display: flex;
     flex-direction: column;
@@ -89,9 +86,6 @@
 .container .box-select .convert-button:hover{
     background-color: #e7e7e7;
 }
-
-
-
 .container .box-conversor {
     display: flex;
     flex-direction: column;
@@ -108,8 +102,6 @@
     padding: 5px 0;
     border-radius: 50px;
 }
-
-
 .conversor p {
     color: #000;
     font-weight: 500;

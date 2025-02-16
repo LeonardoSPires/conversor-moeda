@@ -8,8 +8,6 @@ function converValues() {
     const currencyValueConvert = document.querySelector(".currency-value-convert");
     const currencyValueConverted = document.querySelector(".currency-value-converted");
 
-    convertButton.style.width ="1.1";
-
     const realDolar = 5.77;
     const realEuro = 5.98;
     const realLibra = 7.18;
